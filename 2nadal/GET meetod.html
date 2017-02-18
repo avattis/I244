@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<title>GET meetod</title>
+    <body>
+        <h2>Registreerimisleht</h2>
+        <form action="data.php" method="GET">
+            <input type="text" name="eesnimi" size="20" placeholder="eesnimi">
+            <input type="text" name="perekonnanimi" size="20" placeholder="perekonnanimi">
+            <input type="tel" name="telefon" placeholder="telefon" maxlength="15">
+            <input type="email" name="email" placeholder="email">
+            <input type="date" name="synnupaev">
+            <label for="mees">Mees</label>
+            <input type="radio" name="sugu" value="mees">
+            <label>Naine: <input type="radio" name="sugu" value="naine"></label>
+            <button type="submit">Saada</button>
+        </form>
+    </body>
+</html>
