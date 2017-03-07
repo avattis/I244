@@ -1,0 +1,68 @@
+#out {
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    left: 550px;
+    top: 250px;
+}
+body {
+    background-image: url('duck.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left;
+    background-color: #0A24A9;
+}
+.in {
+    border-radius: 50%;
+    border-style: solid;
+    position: absolute;
+}
+.in:nth-child(1) {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    border-color: white;
+    left: calc(0%/2);
+    top: calc(0%/2);
+}
+.in:nth-child(2) {
+    height: 80%;
+    width: 80%;
+    background-color: red;
+    border-color: red;
+    left: calc(20%/2);
+    top: calc(20%/2);
+}
+.in:nth-child(3) {
+    height: 60%;
+    width: 60%;
+    background-color: white;
+    border-color: white;
+    left: calc(40%/2);
+    top: calc(40%/2);
+}
+.in:nth-child(4) {
+    height: 40%;
+    width: 40%;
+    background-color: red;
+    border-color: red;
+    left: calc(60%/2);
+    top: calc(60%/2);
+}
+.in:nth-child(5) {
+    height: 20%;
+    width: 20%;
+    background-color: white;
+    border-color: white;
+    left: calc(80%/2);
+    top: calc(80%/2);
+}
+.in:nth-child(6) {
+    height: 10%;
+    width: 10%;
+    background-color: red;
+    border-color: red;
+    left: calc(90%/2);
+    top: calc(90%/2);
+}
