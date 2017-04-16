@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Valik</title>
+    <style type="text/css">
+        .output {
+            padding:5px;
+            margin:3px;
+            width: 300px;
+            height: 200px;
+            background-color: <?php echo $taustavarv; ?>;
+            
+            
+        }
+        
+        #tekstiaken{
+            height: 20px;
+            width: 300px;
+        }
+        #tekstikuva {
+            color: <?php echo $tekstivarv; ?>;
+            font-size: <?php echo $tsuurus; ?>px;
+        }
+    </style>
+</head>
+<body>
+    <div class="output">
+        <p id="tekstikuva"><?php echo $tekst; ?></p>
+    </div>
+    <form method="post">
+        Sisesta tekst: <input type="text" name="tekst" id="tekstiaken"><br /><br />
+        Taustavärv: <input type="color" name="taustavarv" value="#ff0000"><br /><br />
+        Vali tekstisuurus: <input type="number" name="tsuurus" min="10" max="40" value="25" step="3">
+                <br /><br />
+        Tekstivärv: <input type="color" name="tekstivarv" ><br /><br />
+        
+       
+   
+        <input type="button" value="Postita">
+    </form>
+</body>
+</html>
